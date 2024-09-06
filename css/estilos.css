@@ -8,7 +8,14 @@ header nav ul {
     text-align: center;
 }
 
+header img {
+    border-radius: 300px;
+    width: 190px;
+}
+
 header nav ul li {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px green;
     background: blue;
     border: 1px solid blue;
     display: inline-block;
@@ -17,6 +24,18 @@ header nav ul li {
     color: white;
 }
 header nav ul li:hover {
+    box-shadow: 0px 0px 0px white;
     background: white;
     color: blue;
+}
+
+main section article {
+    border: 1px solid blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 32.5%;
+}
+
+footer {
+    border: 1px solid blue;
 }
